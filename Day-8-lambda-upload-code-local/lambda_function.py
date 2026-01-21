@@ -23,7 +23,7 @@ def lambda_handler(event, context):
     try:
         connection = connect_to_rds()
         with connection.cursor() as cursor:
-             Create a new database
+            # Create a new database
             create_db_sql = f"CREATE DATABASE IF NOT EXISTS {new_db_name};"
             cursor.execute(create_db_sql)
 
