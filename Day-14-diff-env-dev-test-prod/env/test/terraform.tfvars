@@ -1,0 +1,7 @@
+vpc_cidr           = "10.0.0.0/16"
+public_subnet_cidr = "10.0.1.0/24"
+availability_zone  = "ap-southeast-2a"
+instance_type      = "t3.small"
+env                = "test"
+ami_id             = "ami-00a51cc7a8cd53e3f"
+region             = "ap-southeast-2"
